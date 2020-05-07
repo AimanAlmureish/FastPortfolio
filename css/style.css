@@ -24,7 +24,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -131,6 +131,7 @@ nav a:hover {
   margin: 0;
   max-width: none;
   background-color: #fbe2e7;
+  padding-bottom: 4em;
 }
 .selfContent {
   display: flex;
@@ -151,4 +152,16 @@ nav a:hover {
 
 .passport p {
   width: 100%;
+}
+
+/* FOOTER  */
+
+footer {
+  padding: 4em 0em;
+  background-color: #f44647;
+}
+
+.copyrights {
+  text-align: center;
+  color: whitesmoke;
 }
