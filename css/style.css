@@ -9,6 +9,13 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: -1;
+}
+
+main {
+  position: relative;
+  z-index: -1;
 }
 
 header {
@@ -86,7 +93,7 @@ nav a:hover {
 /* ABOUT */
 
 .about {
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   position: relative;
   z-index: -1;
   display: table;
@@ -112,4 +119,36 @@ nav a:hover {
 
 .aboutText p {
   width: 80%;
+}
+
+/* CREDS */
+
+.self {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #fbe2e7;
+}
+.selfContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.selfImg img {
+  clip-path: circle(40% at 50% 42%);
+}
+
+.passport {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.passport p {
+  width: 100%;
 }
