@@ -165,3 +165,23 @@ footer {
   text-align: center;
   color: whitesmoke;
 }
+
+/* CV page */
+
+.cv {
+  padding: 3em 0em;
+}
+
+.singleCV {
+  padding: 1em 2em;
+}
+
+.singleCV h2 {
+  color: #f44647;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.singleCV p {
+  font-size: 1.5em;
+}
