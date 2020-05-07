@@ -4,7 +4,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -81,4 +81,35 @@ nav a:hover {
 
 .heroText h1 {
   font-weight: 600;
+}
+
+/* ABOUT */
+
+.about {
+  padding-bottom: 2em;
+  position: relative;
+  z-index: -1;
+  display: table;
+  margin: 0;
+  max-width: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #f44647;
+  padding: 1em 0em;
+  text-transform: uppercase;
+}
+
+.aboutText {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutText p {
+  width: 80%;
 }
