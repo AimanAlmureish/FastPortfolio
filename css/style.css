@@ -236,6 +236,8 @@ footer {
 
 .singleHobby img {
   width: 100%;
+  position: relative;
+  top: -6px;
 }
 
 .singleHobby p {
@@ -247,4 +249,50 @@ footer {
   color: #f44647;
   text-transform: uppercase;
   padding: 0.5em 1em;
+}
+
+/* COURSEWORK */
+
+.coursework {
+  padding: 3em 0em;
+}
+
+.wholeCoursework {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em;
+  flex-wrap: wrap;
+}
+
+.singleCoursework {
+  flex: 0 40%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin: 2em;
+  box-shadow: 0 0 3px 0 rgb(95, 95, 95);
+  border-radius: 6px;
+}
+
+.singleCoursework img {
+  width: 100%;
+  position: relative;
+  top: -6px;
+}
+
+.singleCoursework h2 {
+  color: #f44647;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.singleCoursework a {
+  color: #f44647;
+  transition: all 0.3s ease;
+}
+
+.singleCoursework a:hover {
+  color: #000;
+  transition: all 0.3s ease;
 }
