@@ -65,7 +65,7 @@ nav a:hover {
 /* HEROHEADER */
 
 .heroheader {
-  background-image: url("../img/heroheader.jpg");
+  background-image: url("../img/magazine.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -151,7 +151,7 @@ nav a:hover {
 }
 
 .selfImg img {
-  clip-path: circle(40% at 50% 42%);
+  clip-path: circle(26% at 50% 42%);
 }
 
 .passport {
