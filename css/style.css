@@ -1,6 +1,7 @@
 * {
   margin: 0em;
   padding: 0em;
+  box-sizing: border-box;
 }
 
 html {
@@ -210,4 +211,40 @@ footer {
 
 .video p {
   font-size: 1.5em;
+}
+
+/* HOBBIES */
+
+.hobbies {
+  padding: 3em 0em;
+}
+
+.wholeHobbies {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em;
+}
+
+.singleHobby {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin: 2em;
+  box-shadow: 0 0 3px 0 rgb(95, 95, 95);
+  border-radius: 6px;
+}
+
+.singleHobby img {
+  width: 100%;
+}
+
+.singleHobby p {
+  padding: 0em 1em;
+  padding-bottom: 1.5em;
+}
+
+.singleHobby h2 {
+  color: #f44647;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
 }
