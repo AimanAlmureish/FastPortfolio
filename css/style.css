@@ -20,7 +20,7 @@ main {
 }
 
 header {
-  background-color: #f3b6c5;
+  background-color: #3f51b5;
 }
 
 nav {
@@ -50,12 +50,12 @@ nav a {
 
 nav a:hover {
   text-decoration: none;
-  color: #f44647;
+  color: #a0edf1;
   transition: all 0.3s;
 }
 
 .active {
-  color: #f44647;
+  color: #a0edf1;
 }
 
 .logo {
@@ -75,8 +75,8 @@ nav a:hover {
 .heroheader::before {
   content: "";
   position: absolute;
-  background-color: white;
-  opacity: 0.6;
+  background-color: #3f51b5;
+  opacity: 0.8;
   width: 100%;
   height: 100vh;
 }
@@ -91,12 +91,13 @@ nav a:hover {
   justify-content: center;
   position: relative;
   z-index: 9999;
-  color: #f44647;
+  color: #4649f4;
   text-align: center;
 }
 
 .heroText h1 {
   font-weight: 600;
+  color: white;
 }
 
 /* ABOUT */
@@ -113,7 +114,7 @@ nav a:hover {
 .title {
   text-align: center;
   font-size: 2.5em;
-  color: #f44647;
+  color: #4649f4;
   padding: 1em 0em;
   text-transform: uppercase;
 }
@@ -139,7 +140,7 @@ nav a:hover {
   display: table;
   margin: 0;
   max-width: none;
-  background-color: #fbe2e7;
+  background-color: whitesmoke;
   padding-bottom: 4em;
 }
 .selfContent {
@@ -167,7 +168,7 @@ nav a:hover {
 
 footer {
   padding: 4em 0em;
-  background-color: #f44647;
+  background-color: #4649f4;
 }
 
 .copyrights {
@@ -181,35 +182,81 @@ footer {
   padding: 3em 0em;
 }
 
-.singleCV {
+table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 25em;
+  border-color: #4649f4;
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {
+  display: block;
   padding: 1em 2em;
 }
 
+.singleCV,
+.singleCV ul {
+  padding: 1em 2em;
+}
+
+.singleCV p {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #4649f4;
+  padding: 1em;
+}
+
 .singleCV h2 {
-  color: #f44647;
+  color: #4649f4;
   font-size: 2em;
   text-transform: uppercase;
 }
 
-.singleCV p {
+.singleCV p,
+.singleCV li {
   font-size: 1.5em;
 }
 
-/* GREETING  */
+/* contact  */
 
-.greeting {
+.contacts {
   padding-bottom: 4em;
   padding: 3em 0em;
 }
-
-.video {
+.contact {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+}
+form {
+  background-color: #4649f469;
+  padding: 2em;
+  border-radius: 10px;
 }
 
-.video p {
+input[type="email"],
+input[type="text"] {
+  width: 300px;
+  padding: 0.5em;
+  border: none;
+}
+textarea {
+  width: 300px;
+}
+
+input[type="button"] {
+  background-color: #fbe2e7;
+  border: #4649f4;
+  border-style: solid;
+  border-width: 2px;
+  padding: 0.5em;
+  color: #4649f4;
+}
+
+.contact p {
   font-size: 1.5em;
 }
 
@@ -246,25 +293,25 @@ footer {
 }
 
 .singleHobby h2 {
-  color: #f44647;
+  color: #4649f4;
   text-transform: uppercase;
   padding: 0.5em 1em;
 }
 
-/* COURSEWORK */
+/* intro */
 
-.coursework {
+.intro {
   padding: 3em 0em;
 }
 
-.wholeCoursework {
+.wholeintro {
   display: flex;
   justify-content: space-around;
   margin: 3em;
   flex-wrap: wrap;
 }
 
-.singleCoursework {
+.singleintro {
   flex: 0 40%;
   display: flex;
   justify-content: center;
@@ -272,27 +319,29 @@ footer {
   margin: 2em;
   box-shadow: 0 0 3px 0 rgb(95, 95, 95);
   border-radius: 6px;
+  padding: 2em;
 }
 
-.singleCoursework img {
-  width: 100%;
-  position: relative;
-  top: -6px;
-}
-
-.singleCoursework h2 {
-  color: #f44647;
+.singleintro h3 {
+  color: #464646;
   text-transform: uppercase;
   padding: 0.5em 1em;
   text-align: center;
 }
 
-.singleCoursework a {
-  color: #f44647;
+.singleintro h2 {
+  color: #4649f4;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.singleintro a {
+  color: #4649f4;
   transition: all 0.3s ease;
 }
 
-.singleCoursework a:hover {
+.singleintro a:hover {
   color: #000;
   transition: all 0.3s ease;
 }
